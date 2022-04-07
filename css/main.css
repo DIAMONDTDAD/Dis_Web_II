@@ -9,7 +9,7 @@ body {
     line-height: 32px;
     font-family:Ubuntu,sans-serif;
     color:#0b0c0b;
-    background-image: url(/proyecto/imagenes/fondo.jpeg);
+    background-image: url(/imagenes/);
 }
 
 h1 {
