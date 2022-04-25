@@ -27,9 +27,7 @@ body{
 header{
     text-align: center;
 }
-.cuadrado{
- 
-}
+
 .perfil1{
     background-color: black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -52,7 +50,7 @@ ul{
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #1f53c5;
-   margin-bottom: 45px;
+    margin-bottom: 45px;
 }
 .menu a, .menu li{
    margin: 10px;
