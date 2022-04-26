@@ -50,16 +50,17 @@ ul{
     background: #070707;
     margin: auto;
     padding: 50px;
-    margin-top: 45px;
+    margin-top: 20px;
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #1f53c5;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
 }
 .title{
     font-size: 2em;
     padding-bottom: 25px;
+    text-shadow: 0 0 0.2em rgb(12, 30, 185), 0 0 0.2em rgb(12, 30, 185);
 }
 li{
     text-shadow: 0 0 0.2em rgb(12, 30, 185), 0 0 0.2em rgb(12, 30, 185);
