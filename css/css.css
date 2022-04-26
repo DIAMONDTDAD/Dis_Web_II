@@ -20,14 +20,13 @@ body{
     background-color: #000000;
 }
 .texto{
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: 25px;
     color: white;
     text-align: left;
     
 }
 .perfil{
-    margin-top: 45px;
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -58,6 +57,10 @@ ul{
     color: white;
     box-shadow: 7px 13px 37px #1f53c5;
     margin-bottom: 45px;
+}
+.title{
+    font-size: 2em;
+    padding-bottom: 25px;
 }
 li{
     text-shadow: 0 0 0.2em rgb(12, 30, 185), 0 0 0.2em rgb(12, 30, 185);
