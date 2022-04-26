@@ -5,7 +5,7 @@
 body{
     font-family: 'Courier New', courier;
     font-size:  18px;
-    background-image: url(/imagenes/fond.jpg);
+    background-image: url(imagenes/fond.jpg);
     height: max-content;
     background-attachment: fixed;
     background-position:center;
