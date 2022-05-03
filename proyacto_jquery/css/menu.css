@@ -40,7 +40,11 @@ main h1{
     
 }
 .img{
-    width: auto;
+    width: 30%;
+}
+
+.preparacion,.ingredientes{
+    font-size: 1em;
 }
 .title{background-image: url(https://www.cocinavital.mx/wp-content/uploads/2017/02/test-de-comida.jpg);
     text-align: center;
@@ -49,9 +53,7 @@ main h1{
     font-size: 3em;
 }
 .imag{
-
     border-radius: 50%;
-
 }
 /*contenidooo fin*/
 header .menu {
