@@ -4,7 +4,7 @@
 	
 }
 body {
-    background-image: url(https://img.freepik.com/foto-gratis/ingredientes-cocinar-pasta-sobre-fondo-madera_23-2147925943.jpg?w=2000);
+    background-image: url(https://i.pinimg.com/originals/35/97/6a/35976a472e0ae3152b39b080760909db.jpg);
 	width: 100%;	
 	background-size: cover;
 	background-attachment: fixed;
@@ -18,19 +18,8 @@ main h1{
 }
 
 /* Header */
-.icon {
-    color: white;
-    background: none;
-    border: none;
-    font-size: 30px;
-    padding: 0 20px;
-    line-height: 60px;
-    cursor: pointer;
-  
-    display: none;
-  }
 header{
-  background: black;
+    background: rgba(0,0,0,0.5);
 }
 /*contenidoooo inicio*/
 main{
@@ -114,7 +103,7 @@ header .menu a {
 	font-size: 20px;
 	font-weight: 300;
 	display: inline-block;
-	margin: 40px 20px;
+	margin: 20px 20px;
 	text-decoration: none;
 	position: relative;
 }
@@ -156,7 +145,7 @@ header .menu a:hover {
    padding:10px;
 }
 .redes{
-    background: #000000; 
+    background: rgba(0,0,0,0.5);
   /* background-image:   url("https://static.vecteezy.com/system/resources/previews/002/832/705/non_2x/dark-blue-red-background-with-bubbles-abstract-illustration-with-colorful-spots-in-nature-style-pattern-for-wallpapers-curtains-vector.jpg");*/
    width: 100%;
    float: left;
