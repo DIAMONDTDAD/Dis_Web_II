@@ -107,7 +107,7 @@ header .menu a:hover {
    padding:10px;
 }
 .redes{
-    background: #000000; 
+    background: rgba(0,0,0,0.5); 
    /*background-image:   url("https://static.vecteezy.com/system/resources/previews/002/832/705/non_2x/dark-blue-red-background-with-bubbles-abstract-illustration-with-colorful-spots-in-nature-style-pattern-for-wallpapers-curtains-vector.jpg");*/
    width: 100%;
    float: left;
