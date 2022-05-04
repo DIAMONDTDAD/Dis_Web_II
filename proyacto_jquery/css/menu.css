@@ -18,6 +18,17 @@ main h1{
 }
 
 /* Header */
+.icon {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+  
+    display: none;
+  }
 header{
   background: black;
 }
@@ -65,7 +76,7 @@ main{
     /*background-image: url(https://fondosmil.com/fondo/56676.jpg);*/
     background-color: black;
     text-align: center;
-    padding: 45px;
+    padding: 20px;
     font-size: 3em;
     color: aqua;
     margin:auto black;
@@ -89,6 +100,7 @@ main{
         width: 100%;
        
     }
+
 }
 
 /*contenidooo fin*/
@@ -98,7 +110,7 @@ header .menu {
     
 }
 header .menu a {
-	color: aqua;
+	color: rgb(255, 255, 255);
 	font-size: 20px;
 	font-weight: 300;
 	display: inline-block;
@@ -108,6 +120,8 @@ header .menu a {
 }
 header .menu a:hover {
 	text-decoration: underline;
+    color: aqua;
+    transform: scale(1.2);
 }
 /* Footer */
 .face:hover{
@@ -142,25 +156,20 @@ header .menu a:hover {
    padding:10px;
 }
 .redes{
-   /* background: #000000; */
-   background-image:   url("https://static.vecteezy.com/system/resources/previews/002/832/705/non_2x/dark-blue-red-background-with-bubbles-abstract-illustration-with-colorful-spots-in-nature-style-pattern-for-wallpapers-curtains-vector.jpg");
+    background: #000000; 
+  /* background-image:   url("https://static.vecteezy.com/system/resources/previews/002/832/705/non_2x/dark-blue-red-background-with-bubbles-abstract-illustration-with-colorful-spots-in-nature-style-pattern-for-wallpapers-curtains-vector.jpg");*/
    width: 100%;
    float: left;
    font-size: 1em;
    text-align: center;
-   padding: 10px;
-   border-radius: 22px;
-   border-style: double ;
-   border-color: rgb(69, 69, 75);
-   
+   padding: 10px;  
 }
  ul {
    list-style: none;
    padding-left: 0;
  }
  footer {
-   background-color: #555;
-   color: #bbb;
+   color: rgb(151, 199, 199);
    line-height: 1.5;
    border-radius: 20px;
  }
@@ -175,3 +184,4 @@ header .menu a:hover {
     text-align: center;
     margin:0 auto
 }
+

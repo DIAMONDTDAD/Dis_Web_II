@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <button id="boton">funcionar</button>
+          <button id="des">desactivar</button>
+          <a href="https://www.google.com/">gaaaaaa</a>
+          <script >
+              var btn=$('#boton')
+              var deac=$('#des')
+              $(function(){
+                /*  $('#boton').click(function(){
+                      alert('se hizo')
+                      btn.click(function(){
+                          alert('hol¿s')
+                      })
+                    })*/
+                    btn.on('click',function(){
+                        document.body.style.background='#325625'
+ 
+                    })
+                 
+
+              })
+              $('#des').on('click', function(){
+                  btn.off('click');
+                  alert('desactivado');
+                  console.log('btn des');
+              })
+              function Saludo(){
+
+               }
+               $('a').on('click',function(e){
+                 e.preventDefault();
+                 alert('enlace bloqueaco ')
+               })
+          </script>
+        </nav>
+    </header>
+</body>
+</html>
